@@ -20,7 +20,7 @@ You can also use it with typescript:
 ```ts
 import ExpireSet from "expire-set";
 const timeout = 10000; // 10 seconds
-const set = new Set<string>(timeout);
+const set = new ExpireSet<string>(timeout);
 set.add("blah");
 set.delete("blah");
 ```
