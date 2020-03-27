@@ -1,0 +1,7 @@
+reporter: list
+ui: bdd
+require:
+ - ts-node/register
+ - source-map-support/register
+recursive: true
+spec: lib/test/**/*.js
